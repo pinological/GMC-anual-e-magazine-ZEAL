@@ -1,4 +1,4 @@
-const api = 'https://nepalcorona.info/api/v1/data/nepal';
+const api = 'https://corona.askbhunte.com/api/v1/data/nepal';
 async function getdata() {
     const repsond = await fetch(api);
     const data = await repsond.json();
